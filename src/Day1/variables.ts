@@ -18,5 +18,7 @@ console.log(studentName);
 
 const country = 'India';
 
-country = 'Arab' // Cannot assign to 'country' because it is a constant.
+//country = 'Arab' // Cannot assign to 'country' because it is a constant.
 
+// Templete literals 
+console.log(`Student ${studentName} is from ${country}`);
